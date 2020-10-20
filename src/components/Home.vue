@@ -116,9 +116,6 @@ export default {
     cursor: default;
     user-select: none;
   }
-  .el-menu--collapse{
-    /* width: 64px; */
-  }
 }
 .el-main {
   background: #eaedf1;
