@@ -40,7 +40,7 @@
           >
           <el-tag v-else type="warning" size="mini">三级</el-tag>
         </template>
-        <template slot="opt" slot-scope="scope">
+        <template slot="opt">
           <el-button type="primary" icon="el-icon-edit" size="mini"
             >编辑</el-button
           >
@@ -156,7 +156,7 @@ export default {
           { required: true, message: "请输入分类名称", trigger: "blur" },
         ],
       },
-      // 制定级联选择器的配置对象
+      // 级联选择器的配置对象
       cascaderProps: {
         value: "cat_id",
         label: "cat_name",
