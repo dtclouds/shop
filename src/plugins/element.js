@@ -2,7 +2,8 @@ import Vue from "vue";
 import 'element-ui/lib/theme-chalk/index.css'
 import { Button, Form, FormItem, Input, Row, Message, Container, Header, Main, Aside, Menu, Submenu, MenuItem, Breadcrumb,
 BreadcrumbItem, Card, Col, Table, TableColumn, Switch, Tooltip, Pagination, Dialog, MessageBox, Tag, Tree, Select, Option, 
-Cascader, Alert, Tabs, TabPane, Steps, Step, Checkbox, CheckboxGroup, Upload} from "element-ui";
+Cascader, Alert, Tabs, TabPane, Steps, Step, Checkbox, CheckboxGroup, Upload,Timeline,TimelineItem} from "element-ui";
+
 
 Vue.use(Button);
 Vue.use(Form);
@@ -39,6 +40,8 @@ Vue.use(Step);
 Vue.use(Checkbox);
 Vue.use(CheckboxGroup);
 Vue.use(Upload);
+Vue.use(Timeline)
+Vue.use(TimelineItem);
 
 
 Vue.prototype.$message = Message
